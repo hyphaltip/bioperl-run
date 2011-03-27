@@ -126,7 +126,7 @@ Report bugs to the Bioperl bug tracking system to help us keep track
 of the bugs and their resolution. Bug reports can be submitted via
 the web:
 
-  http://bugzilla.open-bio.org/
+  http://redmine.open-bio.org/projects/bioperl/
 
 =head1 AUTHOR - Mark A. Jensen
 
@@ -143,8 +143,6 @@ Internal methods are usually preceded with a _
 package Bio::Tools::Run::Samtools;
 use strict;
 use warnings;
- use lib '../../../../live';
- use lib '../../..';
 use Bio::Root::Root;
 use Bio::Tools::Run::Samtools::Config;
 
